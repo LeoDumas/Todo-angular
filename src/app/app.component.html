@@ -1,22 +1,22 @@
 <main
   class="flex flex-col items-center justify-start min-h-screen w-full bg-gray-100 p-6"
 >
-  <h1 class="text-4xl font-bold text-gray-800 mb-8">ToDo</h1>
+  <h1 class="text-4xl font-bold text-gray-800 mb-8">Me-To-Do</h1>
 
   <div class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 mb-8">
-    <h2 class="text-2xl font-semibold text-gray-700 mb-4">Ajouter une tâche</h2>
+    <h2 class="text-2xl font-semibold text-gray-700 mb-4">Add task</h2>
     <div class="flex">
       <input
         type="text"
         [(ngModel)]="newTodo"
-        placeholder="Nouvelle tâche..."
+        placeholder="New task..."
         class="flex-grow rounded-l-md px-4 py-2 border-2 border-r-0 border-gray-300 focus:outline-none"
       />
       <button
         class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-r-md transition duration-300 ease-in-out"
         (click)="addTodo()"
       >
-        Ajouter
+        Add
       </button>
     </div>
   </div>
@@ -69,7 +69,7 @@
       </div>
     </li>
     } @empty {
-    <li class="p-4 text-center text-gray-500">Aucune tâche à faire</li>
+    <li class="p-4 text-center text-gray-500">No task</li>
     }
   </ul>
 </main>

@@ -22,7 +22,7 @@ export class AppComponent {
 
   addTodo() {
     if (this.newTodo.trim() === '') {
-      alert('Vous devez ajouter un titre');
+      alert('You need to add a title');
     } else {
       this.Todos.push(this.newTodo);
       this.newTodo = '';
@@ -36,7 +36,7 @@ export class AppComponent {
   }
 
   modifyTodo(index: number) {
-    const newTitle = prompt('Modifier la tâche:', this.Todos[index]);
+    const newTitle = prompt('Modify task:', this.Todos[index]);
     if (newTitle !== null) {
       this.Todos[index] = newTitle;
     }
