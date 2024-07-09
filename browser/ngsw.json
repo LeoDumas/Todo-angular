@@ -1,0 +1,58 @@
+{
+  "configVersion": 1,
+  "timestamp": 1720538741032,
+  "index": "/todo-angular/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/todo-angular/index.html",
+        "/todo-angular/main-C3UOVBGK.js",
+        "/todo-angular/polyfills-6EAL64PA.js",
+        "/todo-angular/styles-V37YUZW5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/todo-angular/index.html": "ed4080929a0a430ee87af05bf82c0d9189124dbf",
+    "/todo-angular/main-C3UOVBGK.js": "3fb6a57f84e31e6e05e48ec4292d687577b70662",
+    "/todo-angular/polyfills-6EAL64PA.js": "d874147a12a6570d9b44e99935e9de8b7f3cabbc",
+    "/todo-angular/styles-V37YUZW5.css": "3ef83eb0817316adf09a25ad94521b1fba9105b2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
